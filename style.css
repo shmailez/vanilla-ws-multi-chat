@@ -1,0 +1,36 @@
+form {
+    background-color: rgb(141, 213, 213);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input {
+    padding: 4px;
+    border-radius: 4px;
+    margin: 8px;
+    background-color: rgb(160, 160, 245);
+}
+
+.chat {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.chat div{
+    background-color: rgb(71, 252, 0);
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 460px) {
+    form, .chat {
+        width: 100%;
+    }
+  }
